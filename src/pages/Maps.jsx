@@ -53,9 +53,7 @@ export default function Maps() {
         {mapSections.map((section, index) => (
           <MapAccordion
             key={section.title}
-            title={section.title}
-            description={section.description}
-            image={section.image}
+            {...section}
             index={index}
           />
         ))}

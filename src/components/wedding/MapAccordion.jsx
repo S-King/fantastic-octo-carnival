@@ -55,7 +55,7 @@ export default function MapAccordion({
                 </p>
               )}
 
-              <div className="w-full aspect-video rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+              <div className="rounded-xl overflow-hidden border border-gray-100 shadow-sm">
                 {iframe ? (
                   <div className="w-full aspect-video">
                     <iframe
