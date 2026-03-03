@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, MapPin } from "lucide-react";
 
-export default function MapAccordion({ title, description, image, index }) {
+export default function MapAccordion({
+  title,
+  description,
+  image,
+  iframe,
+  index,
+}) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -44,14 +50,29 @@ export default function MapAccordion({ title, description, image, index }) {
           >
             <div className="px-6 pb-6">
               {description && (
-                <p className="text-gray-400 text-sm font-light mb-4">{description}</p>
+                <p className="text-gray-400 text-sm font-light mb-4">
+                  {description}
+                </p>
               )}
-              <div className="rounded-xl overflow-hidden border border-gray-100">
-                <img
-                  src={image}
-                  alt={title}
-                  className="w-full h-48 md:h-64 object-cover"
-                />
+
+              <div className="w-full aspect-video rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+                {iframe ? (
+                  <div className="w-full aspect-video">
+                    <iframe
+                      src={iframe}
+                      className="w-full h-full"
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      allowFullScreen
+                    />
+                  </div>
+                ) : (
+                  <img
+                    src={image}
+                    alt={title}
+                    className="w-full h-48 md:h-64 object-cover"
+                  />
+                )}
               </div>
             </div>
           </motion.div>

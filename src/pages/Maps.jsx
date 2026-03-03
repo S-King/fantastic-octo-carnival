@@ -5,18 +5,24 @@ import MapAccordion from "../components/wedding/MapAccordion";
 const mapSections = [
   {
     title: "Ceremony Location",
-    description: "The ceremony will be held at a beautiful beachfront location in Sámara, with the Pacific Ocean as our backdrop.",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+    description:
+      "The ceremony will be held at a beautiful beachfront location in Sámara, with the Pacific Ocean as our backdrop.",
+    image:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
   },
   {
     title: "Hotel Area",
-    description: "Most recommended hotels are located within a short walk of the town center and beach.",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    description:
+      "Most recommended hotels are located within a short walk of the town center and beach.",
+    image:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
   },
   {
     title: "Local Attractions",
-    description: "Explore the beauty of Sámara — from hidden beaches to wildlife refuges and vibrant local markets.",
-    image: "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&q=80",
+    description:
+      "Explore the beauty of Sámara — from hidden beaches to wildlife refuges and vibrant local markets.",
+    iframe:
+      "https://www.google.com/maps/d/u/0/embed?mid=1J0qGqJ8mvj85dXp0_rKVhj8SInidoMA&ehbc=2E312F",
   },
 ];
 
