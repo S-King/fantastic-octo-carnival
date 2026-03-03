@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { createPageUrl } from "../utils";
 
 // Import video so bundler resolves it correctly
-import backgroundVideo from "../assets/videos/landing_page_background_video.MP4";
+import backgroundVideo from "../assets/videos/landing_page_background_video.mp4";
 
 export default function Landing() {
   const videoRef = useRef(null);
