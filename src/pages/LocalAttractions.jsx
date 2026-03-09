@@ -7,6 +7,7 @@ import surfImg from "../assets/images/surfing_lessons_local_attractions_card_ima
 import horsebackTourImg from "../assets/images/horseback_riding_beach_local_attractions_card_image.jpg";
 import autogyroTourImg from "../assets/images/autogyro_local_attractions_card_image.jpg";
 import massagesImg from "../assets/images/massages_local_attractions_card_image.jpg";
+import {motion} from "framer-motion";
 
 
 const attractions = [
@@ -70,13 +71,26 @@ const attractions = [
 
 export default function LocalAttractions() {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-16">
-      <h1
-        className="text-4xl text-center text-gray-800 mb-12 font-light"
-        style={{ fontFamily: "'Playfair Display', serif" }}
+    <div className="max-w-5xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="mb-10"
       >
-        Local Attractions
-      </h1>
+        <p className="text-[11px] tracking-[0.3em] uppercase text-[#C9A96E] mb-3 font-light">
+          Have some fun!
+        </p>
+        <h1
+          className="text-3xl md:text-4xl text-gray-800 font-light"
+          style={{ fontFamily: "'Playfair Display', serif" }}
+        >
+          Local Attractions
+        </h1>
+        <p className="text-gray-400 text-sm font-light mt-3 max-w-lg">
+          Check out some of our favorite activities to do in and around Sámara.
+        </p>
+      </motion.div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {attractions.map((attraction, index) => (
