@@ -50,7 +50,7 @@ export default function Registry() {
 
             <div className="space-y-4">
               <a
-                href="https://www.amazon.com/wedding/registry"
+                href="https://www.amazon.com/wedding/guest-view/110T7ZB170U3Z"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-8 py-4 border border-gray-200 rounded-xl text-gray-700 
