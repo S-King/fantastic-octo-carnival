@@ -49,6 +49,7 @@
  */
 import Landing from './pages/Landing';
 import Accommodations from './pages/Accommodations';
+import LocalAttractions from "./pages/LocalAttractions.jsx";
 import Maps from './pages/Maps';
 import Schedules from './pages/Schedules';
 import Registry from './pages/Registry';
@@ -58,6 +59,7 @@ import __Layout from './Layout.jsx';
 export const PAGES = {
     "Landing": Landing,
     "Accommodations": Accommodations,
+    "LocalAttractions": LocalAttractions,
     "Maps": Maps,
     "Schedules": Schedules,
     "Registry": Registry,

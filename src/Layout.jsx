@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./components/wedding/Sidebar";
 
-const PAGES_WITH_SIDEBAR = ["Accommodations", "Maps", "Schedules", "Registry"];
+const PAGES_WITH_SIDEBAR = ["Accommodations", "Maps", "Schedules", "Registry", "LocalAttractions"];
 
 export default function Layout({ children, currentPageName }) {
   const showSidebar = PAGES_WITH_SIDEBAR.includes(currentPageName);

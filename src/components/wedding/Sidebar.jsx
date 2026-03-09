@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "../../utils";
 import { motion } from "framer-motion";
-import { Hotel, MapPin, Calendar, Gift, Menu, X } from "lucide-react";
+import { Hotel, MapPin, Calendar, Gift, Menu, Compass, X } from "lucide-react";
 
 const navItems = [
   { name: "Accommodations", icon: Hotel, label: "Accommodations" },
   { name: "Maps", icon: MapPin, label: "Maps" },
   { name: "Schedules", icon: Calendar, label: "Schedules" },
   { name: "Registry", icon: Gift, label: "Registry" },
+  { name: "LocalAttractions", icon: Compass, label: "Local Attractions" },
 ];
 
 export default function Sidebar({ currentPage }) {
