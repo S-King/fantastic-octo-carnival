@@ -64,7 +64,7 @@ const attractions = [
         "with a massage in a private cabana at Las Ventanas overlooking the ocean.",
     image: massagesImg,
     tag: "Massages",
-    price: "$25",
+    price: "$25+",
     url: "https://crsmt.com/"
   }
 ];

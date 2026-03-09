@@ -1,24 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
 import MapAccordion from "../components/wedding/MapAccordion";
+import ventanasImage from "../assets/images/las_ventanas_accommodation_card_background.jpg";
 
 const mapSections = [
   {
     title: "Ceremony Location",
     description:
-      "The ceremony will be held at a beautiful beachfront location in Sámara, with the Pacific Ocean as our backdrop.",
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "The ceremony will be held at the infinity pool at Las Ventanas private resort, with the Pacific Ocean as our backdrop.",
+    image: ventanasImage,
   },
   {
-    title: "Hotel Area",
-    description:
-      "Most recommended hotels are located within a short walk of the town center and beach.",
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-  },
-  {
-    title: "Local Attractions",
+    title: "Map of Sámara",
     description:
       "Explore the beauty of Sámara — from hidden beaches to wildlife refuges and vibrant local markets.",
     iframe:
