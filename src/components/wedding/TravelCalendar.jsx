@@ -9,11 +9,11 @@ const DAYS_IN_AUGUST = 31;
 
 const travelers = [
       { name: "S&K", arrival: 11, departure: 24, color: "#C9A96E" },
-      { name: "Stan&Victoria", arrival: 11, departure: 24, color: "#C9A96E" },
-      { name: "Thaddeus&Ashley", arrival: 20, departure: 23, color: "#C9A96E" },
-      { name: "Kay&Alex", arrival: 17, departure: 24, color: "#C9A96E" },
-      { name: "Britt&Elizabeth(Tentative)", arrival: 20, departure: 24, color: "#C9A96E" },
-      { name: "Evan&Kacey", arrival: 15, departure: 23, color: "#C9A96E" },
+      { name: "Stan&Victoria", arrival: 11, departure: 24, color: "#6E8FA6" },
+      { name: "Thaddeus&Ashley", arrival: 20, departure: 23, color: "#6FA69A" },
+      { name: "Kay&Alex", arrival: 17, departure: 24, color: "#8FA66E" },
+      { name: "Britt&Elizabeth(Tentative)", arrival: 20, departure: 24, color: "#A67C6E" },
+      { name: "Evan&Kacey", arrival: 15, departure: 23, color: "#8A7EA6" },
 ];
 
 export default function TravelCalendar() {
