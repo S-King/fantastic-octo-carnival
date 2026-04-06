@@ -50,13 +50,13 @@ export default function Registry() {
 
             <div className="space-y-4">
               <a
-                href="https://www.amazon.com/wedding/guest-view/110T7ZB170U3Z"
+                href="https://www.zola.com/wedding/kimberlinandspencer/registry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-8 py-4 border border-gray-200 rounded-xl text-gray-700 
                   hover:border-[#C9A96E] hover:text-[#C9A96E] transition-all duration-300 group bg-white hover:shadow-md"
               >
-                <span className="text-sm tracking-wide font-light">View Our Amazon Registry</span>
+                <span className="text-sm tracking-wide font-light">View Our Gift Registry</span>
                 <ExternalLink className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5" />
               </a>
             </div>
