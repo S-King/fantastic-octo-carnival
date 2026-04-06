@@ -8,8 +8,8 @@ const AUGUST_2026_START_DAY = 6;
 const DAYS_IN_AUGUST = 31;
 
 const travelers = [
-  { name: "S&K", arrival: 11, departure: 24, color: "#C9A96E" },
-  { name: "Stan&Victoria", arrival: 11, departure: 24, color: "#6E8FA6" },
+  { name: "S&K", arrival: 11, departure: 25, color: "#C9A96E" },
+  { name: "Stan&Victoria", arrival: 11, departure: 25, color: "#6E8FA6" },
   { name: "Thaddeus&Ashley", arrival: 20, departure: 23, color: "#6FA69A" },
   { name: "Kay&Alex", arrival: 17, departure: 24, color: "#8FA66E" },
   { name: "Britt&Elizabeth(Tentative)", arrival: 20, departure: 24, color: "#A67C6E" },
